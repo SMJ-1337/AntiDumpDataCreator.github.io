@@ -1,5 +1,5 @@
-const FrontendData = `data`;
-const JsonData = `data`;
+const FrontendData = "`data`";
+const JsonData = "`data`";
 
 function Frontend() {
     alert("Frontend: created!");
