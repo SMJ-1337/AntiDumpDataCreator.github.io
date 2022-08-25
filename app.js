@@ -1,14 +1,8 @@
 const FrontendData = "`data`";
-const JsonData = "`data`";
 
 function Frontend() {
     alert("Frontend: created!");
     download("frontend.json", JSON.stringify({ Data: FrontendData }));
-}
-
-function JavaScript() {
-    alert("JavaScriptData created!");
-    download("javascript.json", JSON.stringify({ Data: JsonData }));
 }
 
 function download(filename, text) {
